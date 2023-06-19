@@ -95,11 +95,20 @@ homebrew_cask_apps:
   - malwarebytes
   - sonixd
   - tunnelblick
+  - pibar
+  - arc
+  - discord
+  
+
+
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
-mas_email: ""
-mas_password: ""
+mas_installed_apps:
+  - { id: 1569813296, name: "1Password" }
+  - { id: 1533805339, name: "Keepa" }
+  - { id: 1607635845, name: "Velja" }
+  - { id: 1236045954, name: "Canary Mail" }
+  - { id: 899247664, name: "TestFlight" }
 
 osx_script: "~/.osx --no-restart"
 
